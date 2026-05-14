@@ -8,9 +8,9 @@ Aplikasi katalog produk elektronik berbasis Flutter yang terintegrasi dengan RES
 
 | Field | Detail |
 |-------|--------|
-| **Nama** | NAMA_KAMU |
-| **NIM** | NIM_KAMU |
-| **Kelas** | KELAS_KAMU |
+| **Nama** | Atha Rifyan Adyfy |
+| **NIM** | 242410103051 |
+| **Kelas** | PBM (D) |
 | **Mata Kuliah** | Pemrograman Berbasis Mobile |
 | **Tahun** | 2026 |
 
@@ -45,6 +45,7 @@ Aplikasi ini merupakan **katalog produk elektronik** yang dibangun menggunakan F
 ---
 
 ## 🏗️ Struktur Project
+```
 lib/
 ├── main.dart
 ├── models/
@@ -59,7 +60,8 @@ lib/
 │   ├── home_screen.dart
 │   └── add_product_screen.dart
 └── widgets/
-└── product_card.dart
+    └── product_card.dart
+```
 
 ---
 
