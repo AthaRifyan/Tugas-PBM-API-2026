@@ -34,13 +34,11 @@ Aplikasi ini merupakan **katalog produk elektronik** yang dibangun menggunakan F
 
 ## 🛠️ Teknologi yang Digunakan
 
-| Teknologi | Keterangan |
-|-----------|------------|
-| Flutter | Framework UI utama |
-| Dart | Bahasa pemrograman |
-| HTTP Package | Komunikasi dengan REST API |
-| Flutter Secure Storage | Penyimpanan token secara aman |
-| Provider | State management |
+- **Framework**: Flutter
+- **Language**: Dart
+- **HTTP Client**: package:http
+- **Secure Storage**: flutter_secure_storage
+- **API Base URL**: https://task.itprojects.web.id
 
 ---
 
@@ -49,15 +47,12 @@ Aplikasi ini merupakan **katalog produk elektronik** yang dibangun menggunakan F
 lib/
 ├── main.dart
 ├── models/
-│   ├── product_model.dart
-│   └── user_model.dart
+│   └── product_model.dart
 ├── services/
 │   └── api_service.dart
-├── providers/
-│   └── auth_provider.dart
 ├── screens/
 │   ├── login_screen.dart
-│   ├── home_screen.dart
+│   ├── product_list_screen.dart
 │   └── add_product_screen.dart
 └── widgets/
     └── product_card.dart
@@ -72,7 +67,7 @@ lib/
 | POST | `/api/auth/login` | Login & ambil token |
 | GET | `/api/products` | Lihat daftar produk |
 | POST | `/api/products` | Tambah produk baru |
-| DELETE | `/api/products/:id` | Hapus produk |
+| DELETE | `/api/products/{id}` | Hapus produk |
 | POST | `/api/products/submit` | Submit tugas |
 
 **Base URL:** `https://task.itprojects.web.id`
@@ -99,7 +94,7 @@ lib/
 
 1. Clone repository ini
 ```bash
-   git clone https://github.com/USERNAME/tugas-pbm-2026.git
+   git clone https://github.com/AthaRifyan/Tugas-PBM-API-2026.git
    cd tugas-pbm-2026
 ```
 
@@ -123,8 +118,8 @@ lib/
 dependencies:
   flutter:
     sdk: flutter
-  http: ^1.2.0
-  flutter_secure_storage: ^9.0.0
+  http: ^1.2.1
+  flutter_secure_storage: ^9.2.2
   provider: ^6.1.1
 ```
 
