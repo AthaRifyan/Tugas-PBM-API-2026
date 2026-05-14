@@ -118,8 +118,8 @@ lib/
 dependencies:
   flutter:
     sdk: flutter
-  http: ^1.2.1
-  flutter_secure_storage: ^9.2.2
+  http: ^1.6.0
+  flutter_secure_storage: ^10.2.0
 ```
 
 ---
