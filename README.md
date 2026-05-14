@@ -95,7 +95,7 @@ lib/
 1. Clone repository ini
 ```bash
    git clone https://github.com/AthaRifyan/Tugas-PBM-API-2026.git
-   cd tugas-pbm-2026
+   cd Tugas-PBM-API-2026
 ```
 
 2. Install dependencies
@@ -120,7 +120,6 @@ dependencies:
     sdk: flutter
   http: ^1.2.1
   flutter_secure_storage: ^9.2.2
-  provider: ^6.1.1
 ```
 
 ---
